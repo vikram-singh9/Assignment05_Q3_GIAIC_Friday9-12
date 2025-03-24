@@ -1,4 +1,4 @@
-import math 
+import math # for sqrt
 
 
 ab = float(input("Enter the length of AB=> "))
