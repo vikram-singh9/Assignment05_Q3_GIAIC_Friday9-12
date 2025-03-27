@@ -1,8 +1,20 @@
+import random
+
+secret_number = random.randint(1, 100)
+print("Think a number bewteen 1 and 100")
 def main():
-    print("Delete this line and write your code here! :)")
+    user_guess = int(input("Enter your guess: "))
+    while True:
+        if user_guess > secret_number:
+            print("HINT: Your guess is too high")
+            break
+        if user_guess < secret_number:
+            print("HINT: Your guess is too low")
+            break
+        if user_guess == secret_number:
+            print("You guessed the correct number")
+            break
 
 
-# This provided line is required at the end of
-# Python file to call the main() function.
 if __name__ == '__main__':
     main()
