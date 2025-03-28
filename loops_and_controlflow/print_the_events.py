@@ -1,6 +1,6 @@
-def main():
-   for i in range(20):
-        i % 2 == 0
-        print(i)
-if __name__ == '__main__':
-    main()
+count = 0
+num = 0
+while count < 20:
+    print(num)
+    num += 2
+    count += 1
