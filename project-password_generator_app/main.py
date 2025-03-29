@@ -1,4 +1,4 @@
-import random
+import random # random_numbers
 import string
 
 def password_generator(length):
@@ -7,3 +7,5 @@ def password_generator(length):
 
 if __name__ == "__main__":
     print(password_generator(10))
+
+
