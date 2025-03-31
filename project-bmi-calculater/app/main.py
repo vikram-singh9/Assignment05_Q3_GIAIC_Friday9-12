@@ -11,8 +11,8 @@ if __name__ == "__main__":
     st.write("Enter your height and weight to calculate your BMI")
 
     # Get user inputs
-    weight = st.number_input("Enter your weight (in kg)", min_value=1.0, max_value=500.0, value=70.0)
-    height = st.number_input("Enter your height (in meters)", min_value=0.1, max_value=3.0, value=1.7)
+    weight = st.number_input("Enter your weight (in kg)", min_value=1.0, max_value=500.0, value=0)
+    height = st.number_input("Enter your height (in meters)", min_value=0.1, max_value=3.0, value=0)
 
     # Calculate BMI when button is pressed
     if st.button("Calculate BMI"):
