@@ -17,8 +17,6 @@ Everyone {verb} and had a {adjective} day!
 print("\nHere's your Mad Libs story:")
 print(story)
 
-# Ask if they want to play again
-
 play_again = input("Do you like to play again: (yes/no)")
 if play_again.lower() == "yes":
     print("let's play again!")
