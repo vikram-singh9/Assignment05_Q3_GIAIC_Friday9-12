@@ -1,6 +1,78 @@
 import streamlit as st 
 
 
+def bmi_calculater():
+    weight = int(input("Enter your weight is kg: "))
+    height = int(input("Enter your height is meters: "))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def main():
     print("Hello from app!")
 
@@ -26,7 +98,7 @@ if __name__ == "__main__":
                 st.balloons()
             elif 25 <= bmi < 30:
                 st.warning("You are overweight")
-                st.balloons()
+                
             else:
                 st.error("You are obese")
         else:
