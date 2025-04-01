@@ -5,6 +5,8 @@ st.title("BMI calculater 📱")
 weight = st.number_input("Enter your weight in kg: ")
 height = st.number_input("Enter your height in meters: ")
 
+if st.button("Calculate BMI"):
+    if weight 
 
 
 
