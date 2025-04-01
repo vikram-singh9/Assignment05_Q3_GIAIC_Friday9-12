@@ -9,6 +9,18 @@ if st.button("Calculate BMI"):
     if weight > 0 and height > 0:
         bmi = weight / (height ** 2)
         st.write(f"your bmi is: {bmi}")
+
+        if bmi < 18.5:
+            st.warning("You are underweight!")
+        elif 18.5 <= bmi < 25:
+            st.success("You are normal weight!")
+            st.balloons()
+        elif 25 <= bmi < 30:
+            st.info("You are overweight!")
+        else:
+            st.error("You are Obese!!!")
+    else:
+        st.write("Please enter the valid input!")
     
 
 
